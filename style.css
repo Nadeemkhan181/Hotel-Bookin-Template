@@ -1,0 +1,444 @@
+      
+      .rounded-circle{
+        height: 200px;
+      }
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: white
+  }
+  
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: white
+  }
+  
+  .place {
+    margin-left: 62px;
+  }
+  
+  .phone {
+    margin-left: 56px;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+  }
+  
+  .contact-text a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .social-media-list li a {
+    color: white;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    top: 0;
+    left: -20px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 10px auto;
+    line-height: 70px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px white;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: white; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #111;
+  }
+  
+  .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  hr {
+    border-color: rgba(255,255,255,.8); ;
+  }
+.fa-star{
+  color: rgb(255, 255, 0)
+}
+.round-circle{
+height: 80px;
+width: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+        .view{
+    overflow: hidden;
+}
+.view img{
+    transition: transform .5s ease;
+}
+.view:hover img{
+    transform: scale(1.2);
+    background: rgba(0, 0, 0, .3);
+    opacity: 0.8;
+
+
+}
+       
+        #cont3{
+            background: url(blue-exotic-hotel-189296.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            
+        }
+        
+        #gallery:hover{
+            transform: scale(1);
+        }
+
+        @media screen and (max-width: 600px){
+            #imageicon{
+                margin-right: 30px;
+            }
+        }
+
+        @media screen and (max-width: 600px){
+            .heading{
+                font-size: 37px;
+            }
+        }
+        @media screen and (max-width: 600px){
+            #datepicker{
+                display: flex;
+                width: 350px;
+                
+            }
+        }
+         @media screen and (max-width: 600px){
+            #in{
+                width: 400px;
+                display: flex;
+                
+                
+            }
+        }
+        @media screen and (max-width: 800px){
+            .heading{
+                font-size: 35px;
+            }
+        }
+        @media screen and (max-width: 800px){
+            #datepicker{
+                display: flex;
+                width: 350px;
+                
+                
+            }
+        }
+         @media screen and (max-width: 700px){
+            #in{
+                width: 8em;
+                display: flex;
+                
+                
+            }
+        }
+        
+     
+
+        @media screen and (max-width: 600px){
+            #cont2{
+              height: 100%;
+            }
+        }
+
+        @media screen and (max-width: 600px){
+            #jumbotron2{
+              height: 100%;
+            }
+        }
+        @media screen and (max-width: 600px){
+            #gallery{
+              width: 9900px;
+            }
+        }
+        @media screen and (max-width: 600px){
+            .navbar{
+              background-color: white;
+            }
+        }
+    
+        @media screen and (max-width: 600px){
+            #jumbo6{
+              height: 100%;
+            }
+        }
+        @media screen and (max-width: 700px){
+            #navbars, #nav-item{ 
+              background-color: black;
+              margin-left: 0px;
+            }
+        }
+    
+    
+            #col3img #btn {
+  position: absolute;
+  top: 91%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: coral;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+width: 300px;
+height: 55px;
+                border-radius: 0px;;
+        }
+        #col1img:hover #img1{
+            opacity: 0.3;
+        }
+        #col1img:hover .overlay{
+            opacity: 1;
+        }
+        
+        #col2img #btn {
+  position: absolute;
+  top: 91%;
+  left: 47.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: coral;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+width: 300px;
+height: 55px;
+             border-radius: 0px;;
+        }
+        #col1img #btn {
+  position: absolute;
+  top: 91%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: coral;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+width: 300px;
+height: 55px;
+             border-radius: 0px;
+        }
+        
+        .nav-link:hover{
+           border-bottom: 1px solid coral; 
+            transform: scale(1.1);
+            transition: 0.8s;
+            
+        }
+        #cont3{
+            height: 400px;
+            width: 100%;
+        }
+        #img1:hover{
+            opacity: 0.5;
+        }
+         #img2:hover{
+            opacity: 0.5;
+        }
+         #img3:hover{
+            opacity: 0.5;
+        }
+        .jumbo3{
+            height: 800px;
+            background-color: red;
+            position: relative;
+        }
+        .book{
+            text-align: center;
+        color: black;
+            margin-top: 120px;
+            font-size: 35px;
+        }
+            
+        }
+        .heading:hover{
+            color: coral;
+        }
+        #cont2{
+            height: 100%;
+            margin-top: 120px;
+        }
+        #jumbotron2{
+            
+           background-color :white;
+        
+        }
+        #datepicker {
+            border: 2px solid white;
+            background-color: transparent;
+        
+            margin: 10px;
+            padding: 15px;
+            
+            
+        }
+        input, select, textarea{
+            color: white;
+        }
+        #in{
+            
+            border: 2px solid white;
+            background-color: transparent;
+            
+            margin: 10px;
+            padding: 15px;
+            width: 220px;
+            
+            
+        
+        }
+        #in:focus{
+            background-color: white;
+            color: black;
+        border-color: white;
+            
+        }
+        #datepicker:focus{
+            background-color: white;;
+            border-color: white;
+            color: black;
+        }
+        h2{
+            margin-top: 18px;
+            text-align: center;
+            font-size: 30px;
+            color: coral;
+        }
+        p{
+            text-align: center;
+            margin-top: 15px;
+        }
+        #book-button{
+            margin-top: 10px;
+            background-color: coral;
+            height: 60px;
+            width: 180px;
+            color: white;
+            border-color: coral;
+            font-size: 12px;
+            margin-right: 55px;
+        }
+        #book-button:hover{
+    background-color: white;
+            color: coral;
+            border-color: white;
+        }
+        .nav-item {
+            margin-left: 40px;
+            font-family:Arial;
+        }
+    
+        #navbars{
+            margin-left: 700px;
+        }
+        .navbar-brand{
+            margin-left: 90px;
+            border: 3px solid white;
+            padding: 10px;
+            height: 50px;
+            color: white;
+            
+        }
+        .nav-item :hover{
+            color: coral;
+        }
+        #container1{
+            height: 900px;
+            background-image:url(clean-holiday-hotel-221457.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            margin-top: 0px;
+            background-position: center;
+        }
+        
+        ::placeholder{
+            color: white;
+            font-size: 14px;
+        }
+        
+        .inside{
+            text-align: center;
+            justify-content: center;
+        margin-top: 140px;
+            
+        }
+        h1{
+            font-size: 5.5em;
+            color: white;
+        }
+        
+  
